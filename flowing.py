@@ -1,8 +1,8 @@
 import tinytuya
 import time
 
-# OutletDevice (deviceId, ipAddress, localKey)
-d = tinytuya.OutletDevice('eb885ae9d9d24f7f0ayi2s', '192.168.100.39', "8r!tQFKBHInG'TDf")
+# OutletDevice (Device ID, IPAddress, Local Key)
+d = tinytuya.OutletDevice('*', '*', "*")
 d.set_version(3.3)
 
 # Get Status
@@ -13,7 +13,7 @@ print('set_status() result %r' % data)
 d.set_value(20, True)
 time.sleep(1)
 
-#Blink
+# Blink
 for _ in range(3):
     d.set_value(24, '00ee03e80447')#Blue
     time.sleep(1)  
@@ -32,4 +32,5 @@ for _ in range(3):
     d.set_value(24, '000000000000')  
     time.sleep(1)
 
+# Turn Off
 d.set_value(20, False)
