@@ -12,8 +12,8 @@ This project demonstrates how to control and make a light mode in Bardi LED Stri
 ### Setup
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Aailmz/BardiLEDStrip.git
-   cd BardiLEDStrip
+   git clone https://github.com/Aailmz/Bardi-LightMode.git
+   cd Bardi-LightMode
    ```
 
 2. **Install Dependencies:**
