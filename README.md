@@ -1,11 +1,11 @@
-# Control Bardi LED Strip Devices Using Python
+# Control Bardi Light & LED Strip Devices Using Python
 
 ### Overview
 This project demonstrates how to control and make a light mode in Bardi LED Strip Devices LED Strip Devices using Python.
 
 ### Requirements
 - Python 3.x
-- Bardi LED Devices
+- Bardi Light Devices
 - [Tuya Developer](https://developer.tuya.com/en/) and SmartApp
 - [TinyTuya](https://pypi.org/project/tinytuya/) library for enhanced device control
 
