@@ -40,6 +40,7 @@ This project demonstrates how to control and make a light mode in Bardi LED Stri
    ```bash
    python -m tinytuya wizard 
    ```
+   Each command output will be stored in .json file.
 
 ### Usage
 - Run the light mode:
